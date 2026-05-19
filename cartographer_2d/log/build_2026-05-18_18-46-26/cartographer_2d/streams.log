@@ -1,0 +1,53 @@
+[0.011s] Invoking command in '/root/humble_ws/src/cartographer_2d/build/cartographer_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/humble_ws/src/cartographer_2d -DCMAKE_INSTALL_PREFIX=/root/humble_ws/src/cartographer_2d/install/cartographer_2d
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.144s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.275s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.538s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.538s] -- Configured cppcheck include dirs: 
+[0.538s] -- Configured cppcheck exclude dirs and/or files: 
+[0.539s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.540s] -- Added test 'lint_cmake' to check CMake code style
+[0.541s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.544s] -- Added test 'uncrustify' to check C / C++ code style
+[0.545s] -- Configured uncrustify additional arguments: 
+[0.545s] -- Added test 'xmllint' to check XML markup files
+[0.547s] -- Configuring done
+[0.549s] -- Generating done
+[0.550s] -- Build files have been written to: /root/humble_ws/src/cartographer_2d/build/cartographer_2d
+[0.553s] Invoked command in '/root/humble_ws/src/cartographer_2d/build/cartographer_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/humble_ws/src/cartographer_2d -DCMAKE_INSTALL_PREFIX=/root/humble_ws/src/cartographer_2d/install/cartographer_2d
+[0.555s] Invoking command in '/root/humble_ws/src/cartographer_2d/build/cartographer_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/humble_ws/src/cartographer_2d/build/cartographer_2d -- -j16 -l16
+[0.581s] Invoked command in '/root/humble_ws/src/cartographer_2d/build/cartographer_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/humble_ws/src/cartographer_2d/build/cartographer_2d -- -j16 -l16
+[0.589s] Invoking command in '/root/humble_ws/src/cartographer_2d/build/cartographer_2d': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/humble_ws/src/cartographer_2d/build/cartographer_2d
+[0.594s] -- Install configuration: ""
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/launch
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/launch/cartographer.launch.py
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/config
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/config/cartographer_2d.lua
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/ament_index/resource_index/package_run_dependencies/cartographer_2d
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/ament_index/resource_index/parent_prefix_path/cartographer_2d
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/environment/ament_prefix_path.sh
+[0.594s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/environment/ament_prefix_path.dsv
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/environment/path.sh
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/environment/path.dsv
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/local_setup.bash
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/local_setup.sh
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/local_setup.zsh
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/local_setup.dsv
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/package.dsv
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/ament_index/resource_index/packages/cartographer_2d
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/cmake/cartographer_2dConfig.cmake
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/cmake/cartographer_2dConfig-version.cmake
+[0.595s] -- Installing: /root/humble_ws/src/cartographer_2d/install/cartographer_2d/share/cartographer_2d/package.xml
+[0.597s] Invoked command in '/root/humble_ws/src/cartographer_2d/build/cartographer_2d' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/humble_ws/src/cartographer_2d/build/cartographer_2d
