@@ -93,3 +93,13 @@ rtabmap_viz:=false
 - Add -> By Topic -> map
 - Add -> By Topic -> /rtabmap/cloud_map -> PointCloud2
 - Đổi Fixed Frame thành `map`
+## Chạy robot bằng teleop_twist
+Mở một terminal mới
+```bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+## Lưu ý
+Trường hợp Gazebo không thể tìm thấy file mesh (.STL), ta phải chỉ đường cho nó (thay đổi thành đường dẫn tương ứng)
+```bash
+export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/humble_ws/install/xe_ros/share
+```
